@@ -1,0 +1,35 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "dev": "node server.js",
+    "deploy": "npm run build && ns build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
+  },
+  "author": "David Amunga",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^5.0.0",
+    "ganache-cli": "^6.1.0",
+    "mocha": "^5.1.0",
+    "next": "^4.1.4",
+    "next-routes": "^1.4.1",
+    "npm": "^5.8.0",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "semantic-ui-css": "^2.3.1",
+    "semantic-ui-react": "^0.79.1",
+    "solc": "^0.4.21",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {
+    "electron-prebuilt-compile": "^1.8.4",
+    "now": "^11.1.7",
+    "now-serve": "^0.5.1"
+  }
+}
