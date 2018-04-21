@@ -7,6 +7,11 @@ Decentralized Crowd campaign app running on **Rinkeby** test net.  Made using Re
 
 ![Home Page](images/home.PNG "Home Page")
 
+
+# Prerequisites
+* Ensure you install Metamask on your browser and create accounts
+* Get free ether from https://faucet.rinkeby.io/
+
 ## Quick Installation
 ```javascript
 npm install
